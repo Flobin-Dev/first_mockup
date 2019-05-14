@@ -1,0 +1,255 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+    list-style:none;
+    line-height:20px;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+h2{
+    margin-bottom:0;
+}
+
+.grille{
+    background-image:url("assets/misc/grille.png");
+    background-repeat:repeat;
+    border-bottom:1px solid lightgrey;
+    border-top:1px solid lightgrey;
+}
+
+nav{
+    padding:50px 0;
+    margin: auto;
+    text-align:center;
+    color: grey;
+}
+
+ul{
+    text-align: left;
+}
+
+#logo{
+    display:inline-block;
+    margin-right:70px;
+}
+
+#nav{
+    display: inline-block;
+}
+
+.linav{
+    display: inline-block;
+    margin:0px 10px;
+}
+
+.bottomborder{
+    border-bottom:5px solid;
+    padding:0px 30px 5px 8px;
+    margin-bottom:10px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+ul > a{
+    display:block;
+    font-size: 10px;
+    padding:4px 0px;
+}
+
+#hotels{
+    border-color:red;
+}
+
+#restaurants{
+    border-color:yellow;
+}
+
+#services{
+    border-color:lightgreen;
+}
+
+#activites{
+    border-color:slateblue;
+}
+
+#plus{
+    border-color:purple;
+}
+
+#ytbvid{
+    margin:30px 0;
+    text-align:center;
+}
+
+#subvid{
+    text-align: center;
+    padding:40px 0;
+    font-size:18px;
+    color:grey;
+    font-family: "Droid", sans-serif;
+    font-style: italic;
+}
+
+#articles{
+    text-align:center;
+    margin:auto;
+    padding:30px 0;
+}
+
+.mainarticle{
+    border:1px solid lightgrey;
+    width:250px;
+    display: inline-block;
+}
+
+.article{
+    text-align: left;
+    padding:20px 10px;
+    margin:0 5px;
+}
+
+.title{
+    color:darkorange;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    font-size:20px;
+}
+
+.date{
+    font-size:10px;
+    font-style: italic !important;
+}
+
+.date, .more{
+    color:darkgrey;
+    font-family: "Droid sans", sans-serif;
+}
+
+.textarticle{
+    color:slategrey;
+    font-family: "Droid sans", sans-serif;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.more{
+    font-size:14px;
+    font-style: italic;
+}
+
+#midarticles{
+    display:inline-block;
+    vertical-align:top;
+    width:250px;
+}
+
+#rightside{
+    display: inline-block;
+    width:500px;
+    vertical-align: top;
+}
+
+#gallery{
+    text-align: left;
+}
+
+.imggallery{
+    padding:5px;
+    margin:5px;
+    border:solid 1px lightgrey;
+}
+
+#footer1{
+    text-align:center;
+    padding:40px 0;
+}
+
+.footerelement{
+    display:inline-block;
+    vertical-align: top;
+    text-align: left;
+    width:250px;
+    font-size:11px;
+    padding:0 20px;
+    color:slategrey;
+}
+
+.footerelement span{
+    display: block;
+    font-style: normal;
+}
+
+.address2{
+    position:relative;
+    left:28px;
+}
+
+address img{
+    position:relative;
+    top:12px;
+}
+
+.address img{
+    top:20px;
+}
+
+.mail img{
+    left:3px;
+}
+
+.mail, .support{
+    text-decoration: underline;
+}
+
+.footertitle{
+    font-family:"Oswald", sans-serif;
+    font-size:15px;
+}
+
+.embed{
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.footerelement p{
+    line-height: 20px;
+    margin-top:5px;
+}
+
+#comments{
+    text-decoration:underline;
+    font-style:italic;
+}
+
+#footer2{
+    width:1000px;
+    margin: auto;
+    margin-top:25px;
+}
+
+#footer2 span{
+    font-weight: bold;
+    font-size: 10px;
+    color:grey;
+    margin-bottom:10px;
+    display: block;
+}
+
+#float{
+    float: left;
+}
+
+#share{
+    float:right;
+}
+
+#share li{
+    display: inline-block;
+}
